@@ -1,0 +1,36 @@
+body {
+  background-color: #212529;
+}
+
+header {
+  color: white;
+}
+
+main {
+  article {
+    color: white;
+
+    .genres {
+      width: 8rem;
+      color: white;
+      background-color: black;
+    }
+
+    .btn1 {
+      button {
+        text-align: center;
+      }
+      .scale {
+        img:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+footer {
+  .copy {
+    font-size: 0.6rem;
+  }
+}

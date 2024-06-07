@@ -1,0 +1,26 @@
+body {
+  background-color: #212529;
+}
+
+header {
+  color: white;
+}
+
+main article {
+  color: white;
+}
+main article .genres {
+  width: 8rem;
+  color: white;
+  background-color: black;
+}
+main article .btn1 button {
+  text-align: center;
+}
+main article .btn1 .scale img:hover {
+  transform: scale(1.1);
+}
+
+footer .copy {
+  font-size: 0.6rem;
+}/*# sourceMappingURL=style.css.map */
