@@ -63,6 +63,14 @@ main article .scale img:hover {
   color: white;
 }
 
+.dropdown-toggle {
+  border-radius: 0px;
+}
+
+.edit {
+  border-radius: 0px;
+}
+
 footer .copy {
   font-size: 0.6rem;
 } /*# sourceMappingURL=style.css.map */
