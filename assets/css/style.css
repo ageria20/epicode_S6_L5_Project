@@ -24,10 +24,10 @@ main article .scale img:hover {
 
 #checkbox1,
 #checkbox2 {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   cursor: pointer;
-  vertical-align: bottom;
+  vertical-align: middle;
   background: rgba(40, 40, 40, 0.2);
   color: black;
 }
