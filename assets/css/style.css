@@ -16,6 +16,7 @@ main article .genres {
 }
 main article .btn1 button {
   text-align: center;
+  border: 1px solid rgb(128, 128, 128);
 }
 main article .btn1 .scale img:hover {
   transform: scale(1.1);
@@ -37,6 +38,13 @@ main article .btn1 .scale img:hover {
   background-color: transparent;
   color: rgba(128, 128, 128, 0.603);
   border: 1px solid rgb(128, 128, 128);
+  padding: 0.5rem;
+}
+
+.delete {
+  background-color: transparent;
+  color: crimson;
+  border: 1px solid crimson;
   padding: 0.5rem;
 }
 
