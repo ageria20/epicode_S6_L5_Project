@@ -16,11 +16,53 @@ main article .genres {
 }
 main article .btn1 button {
   text-align: center;
+  border: 1px solid rgb(128, 128, 128);
 }
-main article .lan {
-  background-color: black;
+main article .scale img:hover {
+  transform: scale(1.2);
+}
+
+#checkbox1,
+#checkbox2 {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  vertical-align: bottom;
+  background: rgba(40, 40, 40, 0.2);
+  color: black;
+}
+
+.save,
+.cancel,
+.delete {
+  background-color: transparent;
+  color: rgba(128, 128, 128, 0.603);
+  border: 1px solid rgb(128, 128, 128);
+  padding: 0.5rem;
+}
+
+.delete {
+  background-color: transparent;
+  color: crimson;
+  border: 1px solid crimson;
+  padding: 0.5rem;
+}
+
+.save:hover {
+  background-color: white;
+  color: black;
+}
+
+.cancel:hover {
+  background-color: white;
+  color: black;
+}
+
+.delete:hover {
+  background-color: crimson;
+  color: white;
 }
 
 footer .copy {
   font-size: 0.6rem;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
