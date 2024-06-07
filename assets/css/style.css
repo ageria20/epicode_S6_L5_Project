@@ -22,14 +22,17 @@ main article .scale img:hover {
   transform: scale(1.2);
 }
 
-#checkbox1,
-#checkbox2 {
+input[type="checkbox"] {
   width: 10px;
   height: 10px;
   cursor: pointer;
   vertical-align: middle;
-  background: rgba(40, 40, 40, 0.2);
+  background-color: rgba(40, 40, 40, 0.2);
   color: black;
+}
+
+input::placeholder {
+  color: white;
 }
 
 .save,
@@ -67,7 +70,8 @@ main article .scale img:hover {
   border-radius: 0px;
 }
 
-.edit {
+.edit,
+.form-select {
   border-radius: 0px;
 }
 
