@@ -72,7 +72,8 @@ input::placeholder {
 }
 
 .edit,
-.form-select {
+.form-select,
+.membBtn {
   border-radius: 0px;
 }
 
